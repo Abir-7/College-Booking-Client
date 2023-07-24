@@ -21,7 +21,7 @@ const { data: colleges, isLoading, refetch } = useQuery({
 
 console.log(colleges?.length)
 
-if(isLoading){
+if( colleges?.length==0){
     return <p className='text-2xl text-center mt-5 '>Please admition in a college</p>
 }
 

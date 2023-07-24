@@ -21,9 +21,12 @@ const { data: colleges, isLoading, refetch } = useQuery({
 
 console.log(colleges?.length)
 
+if(isLoading){
+    return <p className='text-2xl text-center mt-5 '>Please admition in a college</p>
+}
 
     return (<>
-     {college?.length===0 && <p className='text-2xl text-center mt-5 '>Please admition in a college</p>}
+   
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
            

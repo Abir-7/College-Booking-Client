@@ -1,0 +1,36 @@
+.swiper-button-next{
+    color: rgb(239 68 68) !important
+}
+.swiper-button-prev{
+    color: rgb(239 68 68) !important
+}
+
+.mySwiper2 {
+    width: 100%;
+    min-height: 60vh;
+  }
+
+  @media screen and (max-width:1022px) {
+    .mySwiper2 {
+        width: 100%;
+        min-height:70vh ;
+      }
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
